@@ -1,0 +1,569 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  color: #1c1e21;
+  direction: ltr;
+  line-height: 1.34;
+}
+
+.login_icon {
+  height: 106px;
+  margin: -28px;
+}
+
+.upper_part {
+  background-color: #f0f2f5;
+  padding-bottom: 112px;
+  padding-top: 72px;
+}
+
+.inner_upper {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+}
+
+.slogan {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+
+.icon {
+  padding: 112px 0 16px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.inner_left {
+  box-sizing: border-box;
+  margin-right: 0;
+  padding-right: 32px;
+  width: 580px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inner_right {
+  display: inline-block;
+}
+
+.login_form_outer {
+  padding-bottom: 24px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  width: 396px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.email_or_phone,
+.password {
+  font-size: 17px;
+  width: 364px;
+  margin: auto;
+  padding: 6px 0;
+}
+
+.textinput {
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  height: 22px;
+  line-height: 16px;
+}
+
+.textinput:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  caret-color: #1877f2;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.login_button_outer {
+  padding-top: 10px;
+}
+
+.login_button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: content-box;
+  color: #fff;
+  transition: 200ms cubic-bezier(0.08, 0.52, 0.52, 1) background-color,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) box-shadow,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) transform;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+
+.login_button:hover {
+  background-color: #166fe5;
+}
+
+.forgot_pass {
+  margin-top: 16px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-family: inherit;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fb_hr {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.create_acc_outer {
+  padding-top: 6px;
+}
+
+.create_acc {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #42b72a;
+  color: #fff;
+  transition: 200ms cubic-bezier(0.08, 0.52, 0.52, 1) background-color,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) box-shadow,
+    200ms cubic-bezier(0.08, 0.52, 0.52, 1) transform;
+  box-sizing: content-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: none;
+}
+
+.create_acc:hover {
+  background-color: #36a420;
+  border-color: #36a420;
+}
+
+.create_page_btn {
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+}
+
+.reg_page_msg {
+  border-top: none;
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.inner_inner_right {
+  height: 456px;
+}
+
+.inner_bottom {
+  padding-top: 20px;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+#pageFooter {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.localeSelectorList {
+  font-family: inherit;
+  padding-top: 8px !important;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.localeSelectorList > li:first-child {
+  padding-left: 0;
+}
+
+.localeSelectorList > li {
+  padding-right: 0;
+}
+
+.localeSelectorList > li {
+  padding-left: 10px;
+}
+
+#seperator {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+#pageFooter a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #8a8d91;
+  font-size: 12px;
+}
+
+#pageFooter a:hover {
+  text-decoration: underline;
+}
+
+#pageFooter .copyright {
+  font-size: 11px;
+}
+
+.uiList {
+  line-height: 1.6;
+  margin-left: -20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.uiList > li {
+  padding-left: 20px;
+}
+
+.uiList > li:first-child {
+  padding-left: 0;
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.upper > img {
+  height: 100px;
+}
+
+.upper_part_register {
+  background-color: #f0f2f5;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+}
+
+.form_bottom {
+  padding-top: 5px;
+}
+
+.belowregform {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  margin: 0 auto;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  position: relative;
+  width: 432px;
+  z-index: 1;
+}
+
+.taotaikhoanmoi {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.nhanhchong {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.regbox {
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #dadde1;
+  box-sizing: border-box;
+  padding: 16px;
+  position: relative;
+  width: 432px;
+  margin: 0 auto;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.input_ho {
+  flex-grow: 1;
+  margin-right: 12px;
+}
+
+.input_ten {
+  flex-grow: 1;
+}
+
+.hovaten {
+  display: flex;
+  flex-direction: row;
+}
+
+.hovaten > input {
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+}
+
+.reg_form {
+  padding-bottom: 60px;
+}
+
+input {
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+}
+
+.input_sdtoremail,
+.input_matkhau {
+  margin-top: 10px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.sdtoremail {
+  display: flex;
+}
+
+.sinhnhat,
+.gioitinh {
+  color: #606770;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-top: 12px;
+}
+
+.birthday_area {
+  display: flex;
+  flex-direction: row;
+}
+
+.day_select {
+  flex-grow: 1;
+}
+
+.month_select {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.year_select {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.birthday_area select {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  -webkit-appearance: none;
+  background-image: url(../../images/dropdown.png);
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+  width: 100%;
+  border: 1px solid #ccd0d5;
+}
+
+.gt-outer {
+  display: flex;
+  flex-direction: row;
+  margin: -8px -6px -6px;
+}
+
+.gt-outer > span {
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+  box-sizing: border-box;
+  display: inline-block;
+  flex: 1 0 auto;
+  font-weight: normal;
+  height: 36px;
+  margin: 8px 6px 6px;
+  padding: 0;
+  position: relative;
+  width: auto;
+  border-radius: 4px;
+}
+
+.gt-outer > span > label {
+  box-sizing: border-box;
+  color: #1c1e21;
+  display: inline-block;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  padding: 0 28px 0 10px;
+  width: 100%;
+}
+
+.gt-outer > span > input {
+  height: 36px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.thongbao {
+  color: #777;
+  font-size: 11px;
+  margin: 1em 0;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.thongbao > a {
+  font-size: 11px;
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.dangkybutton {
+  font-weight: bold;
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+  min-width: 194px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hrefouter {
+  padding: 10px 0;
+}
+
+.hrefouter > a {
+  color: #1877f2;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.customouter {
+  margin-top: 10px;
+}
+
+.ppnoun {
+  -webkit-appearance: none;
+  background-image: url(../../images/dropdown.png);
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  width: 100%;
+  border: 1px solid #ccd0d5;
+  margin: 4px 0;
+}
+
+._83kf {
+  color: #606770;
+  font-size: 12px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.input_gioitinh {
+  width: 100%;
+}
+
+.ctgt {
+  margin: 8px 0;
+}
