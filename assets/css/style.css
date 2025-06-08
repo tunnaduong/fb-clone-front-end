@@ -348,21 +348,26 @@ a {
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 
-.input_ho {
-  flex-grow: 1;
-  margin-right: 12px;
-}
-
-.input_ten {
-  flex-grow: 1;
-}
-
 .hovaten {
   display: flex;
   flex-direction: row;
+  gap: 12px;
+  width: 100%;
+}
+
+.input_ho {
+  flex: 1;
+  min-width: 0;
+}
+
+.input_ten {
+  flex: 1;
+  min-width: 0;
 }
 
 .hovaten > input {
+  width: 100%;
+  box-sizing: border-box;
   padding: 11px;
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   font-size: 15px;

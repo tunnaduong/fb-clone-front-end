@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Facebook - Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/home.css" />
+    <link rel="icon" href="./images/favicon.gif" type="image/gif" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.css"
+      integrity="sha512-ywmPbuxGS4cJ7GxwCX+bCJweeext047ZYU2HP52WWKbpJnF4/Zzfr2Bo19J4CWPXZmleVusQ9d//RB5bq0RP7w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="bg-[#f2f4f7]">
+    <div class="navbar bg-white shadow-md px-3 py-2 flex relative">
+      <div class="navbar-left flex flex-row gap-2">
+        <img
+          src="./images/logo.webp"
+          alt="Facebook"
+          class="w-[40px] h-[40px]"
+        />
+        <div class="bg-[#f0f2f5] rounded-full px-3 flex items-center">
+          <i class="bi bi-search text-[#65686c]"></i>
+          <input
+            type="text"
+            class="search-bar mr-4 ml-2"
+            placeholder="Tìm kiếm trên Facebook"
+          />
+        </div>
+      </div>
+      <div
+        class="navbar-center absolute left-1/2 -translate-x-1/2 h-full -mt-[0.5rem] flex flex-row gap-5"
+      >
+        <div
+          class="border-b-[3px] h-full flex items-center px-7 text-[#1877f2] text-[25px]"
+        >
+          <i class="bi bi-house-fill"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]"
+        >
+          <i class="bi bi-tv"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[23px] text-[#65686c]"
+        >
+          <i class="bi bi-shop-window"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]"
+        >
+          <i class="bi bi-people"></i>
+        </div>
+      </div>
+      <div class="navbar-right absolute right-3 flex flex-row gap-2">
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-grid-3x3-gap-fill -mt-0.5"></i>
+        </div>
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-chat-text-fill -mt-0.5"></i>
+        </div>
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-bell-fill -mt-0.5"></i>
+        </div>
+        <div class="bg-[#f0f2f5] rounded-full w-10 h-10 overflow-hidden">
+          <img src="./images/tunganh.jpg" alt="Avatar" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
