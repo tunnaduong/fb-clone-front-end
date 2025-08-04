@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Facebook - Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/home.css" />
+    <link rel="icon" href="./images/favicon.gif" type="image/gif" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.css"
+      integrity="sha512-ywmPbuxGS4cJ7GxwCX+bCJweeext047ZYU2HP52WWKbpJnF4/Zzfr2Bo19J4CWPXZmleVusQ9d//RB5bq0RP7w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Facebook - Trang chủ</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/home.css" />
-  <link rel="icon" href="./images/favicon.gif" type="image/gif" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.css"
-    integrity="sha512-ywmPbuxGS4cJ7GxwCX+bCJweeext047ZYU2HP52WWKbpJnF4/Zzfr2Bo19J4CWPXZmleVusQ9d//RB5bq0RP7w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body class="bg-[#f2f4f7]">
-  <div class="navbar bg-white shadow-md px-3 py-2 flex relative">
-    <div class="navbar-left flex flex-row gap-2">
-      <img src="./images/logo.webp" alt="Facebook" class="w-[40px] h-[40px]" />
-      <div class="bg-[#f0f2f5] rounded-full px-3 flex items-center">
-        <i class="bi bi-search text-[#65686c]"></i>
-        <input type="text" class="search-bar mr-4 ml-2" placeholder="Tìm kiếm trên Facebook" />
-      </div>
-    </div>
-    <div class="navbar-center absolute left-1/2 -translate-x-1/2 h-full -mt-[0.5rem] flex flex-row gap-5">
-      <div class="border-b-[3px] h-full flex items-center px-7 text-[#1877f2] text-[25px]">
-        <i class="bi bi-house-fill"></i>
-      </div>
-      <div class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]">
-        <i class="bi bi-tv"></i>
-      </div>
-      <div class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[23px] text-[#65686c]">
-        <i class="bi bi-shop-window"></i>
-      </div>
-      <div class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]">
-        <i class="bi bi-people"></i>
-      </div>
-    </div>
-    <div class="navbar-right absolute right-3 flex flex-row gap-2">
-      <div class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]">
-        <i class="bi bi-grid-3x3-gap-fill -mt-0.5"></i>
-      </div>
-      <div class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]">
-        <i class="bi bi-chat-text-fill -mt-0.5"></i>
-      </div>
-      <div class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]">
-        <i class="bi bi-bell-fill -mt-0.5"></i>
-      </div>
-      <div class="bg-[#f0f2f5] rounded-full w-10 h-10 overflow-hidden">
-        <img src="./images/tunganh.jpg" alt="Avatar" />
-      </div>
-    </div>
-  </div>
-  <main class="flex flex-row">
-    <!-- Left sidebar -->
-    <div class="px-3 mt-5 max-w-[360px] w-full">
-      <div class="flex flex-col gap-3">
-        <div class="flex flex-row items-center gap-3">
-          <img src="./images/tunganh.jpg" class="w-9 h-9 rounded-full" />
-          <span class="text-[15px] font-semibold">Tunna Duong</span>
+  <body class="bg-[#f2f4f7]">
+    <div class="navbar bg-white shadow-md px-3 py-2 flex relative">
+      <div class="navbar-left flex flex-row gap-2">
+        <img
+          src="./images/logo.webp"
+          alt="Facebook"
+          class="w-[40px] h-[40px]"
+        />
+        <div class="bg-[#f0f2f5] rounded-full px-3 flex items-center">
+          <i class="bi bi-search text-[#65686c]"></i>
+          <input
+            type="text"
+            class="search-bar mr-4 ml-2"
+            placeholder="Tìm kiếm trên Facebook"
+          />
         </div>
-        <div class="flex flex-row items-center gap-3">
-          <i style="
+      </div>
+      <div
+        class="navbar-center absolute left-1/2 -translate-x-1/2 h-full -mt-[0.5rem] flex flex-row gap-5"
+      >
+        <div
+          class="border-b-[3px] h-full flex items-center px-7 text-[#1877f2] text-[25px]"
+        >
+          <i class="bi bi-house-fill"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]"
+        >
+          <i class="bi bi-tv"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[23px] text-[#65686c]"
+        >
+          <i class="bi bi-shop-window"></i>
+        </div>
+        <div
+          class="border-b-[3px] border-[transparent] h-full flex items-center px-7 text-[25px] text-[#65686c]"
+        >
+          <i class="bi bi-people"></i>
+        </div>
+      </div>
+      <div class="navbar-right absolute right-3 flex flex-row gap-2">
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-grid-3x3-gap-fill -mt-0.5"></i>
+        </div>
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-chat-text-fill -mt-0.5"></i>
+        </div>
+        <div
+          class="bg-[#f0f2f5] rounded-full w-10 h-10 flex items-center justify-center text-[20px]"
+        >
+          <i class="bi bi-bell-fill -mt-0.5"></i>
+        </div>
+        <div class="bg-[#f0f2f5] rounded-full w-10 h-10 overflow-hidden">
+          <img src="./images/tunganh.jpg" alt="Avatar" />
+        </div>
+      </div>
+    </div>
+    <main class="flex flex-row">
+      <!-- Left sidebar -->
+      <div class="px-3 mt-5 max-w-[360px] w-full">
+        <div class="flex flex-col gap-3">
+          <div class="flex flex-row items-center gap-3">
+            <img src="./images/tunganh.jpg" class="w-9 h-9 rounded-full" />
+            <span class="text-[15px] font-semibold">Tunna Duong</span>
+          </div>
+          <div class="flex flex-row items-center gap-3">
+            <i
+              style="
                 background-image: url('./images/icon.png');
                 background-position: 0 -296px;
                 background-size: auto;
@@ -67,11 +95,13 @@
                 height: 36px;
                 background-repeat: no-repeat;
                 display: inline-block;
-              "></i>
-          <span class="text-[15px] font-semibold">Bạn bè</span>
-        </div>
-        <div class="flex flex-row items-center gap-3">
-          <i style="
+              "
+            ></i>
+            <span class="text-[15px] font-semibold">Bạn bè</span>
+          </div>
+          <div class="flex flex-row items-center gap-3">
+            <i
+              style="
                 background-image: url('./images/icon.png');
                 background-position: 0 -37px;
                 background-size: auto;
@@ -79,11 +109,13 @@
                 height: 36px;
                 background-repeat: no-repeat;
                 display: inline-block;
-              "></i>
-          <span class="text-[15px] font-semibold">Nhóm</span>
-        </div>
-        <div class="flex flex-row items-center gap-3">
-          <i style="
+              "
+            ></i>
+            <span class="text-[15px] font-semibold">Nhóm</span>
+          </div>
+          <div class="flex flex-row items-center gap-3">
+            <i
+              style="
                 background-image: url('./images/icon.png');
                 background-position: 0 -185px;
                 background-size: auto;
@@ -91,11 +123,13 @@
                 height: 36px;
                 background-repeat: no-repeat;
                 display: inline-block;
-              "></i>
-          <span class="text-[15px] font-semibold">Đã lưu</span>
-        </div>
-        <div class="flex flex-row items-center gap-3">
-          <i style="
+              "
+            ></i>
+            <span class="text-[15px] font-semibold">Đã lưu</span>
+          </div>
+          <div class="flex flex-row items-center gap-3">
+            <i
+              style="
                 background-image: url('./images/icon.png');
                 background-position: 0 -407px;
                 background-size: auto;
@@ -103,11 +137,13 @@
                 height: 36px;
                 background-repeat: no-repeat;
                 display: inline-block;
-              "></i>
-          <span class="text-[15px] font-semibold">Marketplace</span>
-        </div>
-        <div class="flex flex-row items-center gap-3">
-          <i style="
+              "
+            ></i>
+            <span class="text-[15px] font-semibold">Marketplace</span>
+          </div>
+          <div class="flex flex-row items-center gap-3">
+            <i
+              style="
                 background-image: url('./images/icon.png');
                 background-position: 0 -148px;
                 background-size: auto;
@@ -115,103 +151,295 @@
                 height: 36px;
                 background-repeat: no-repeat;
                 display: inline-block;
-              "></i>
-          <span class="text-[15px] font-semibold">Trang</span>
-        </div>
-      </div>
-      <hr class="border-[#d0d3d7] my-4" />
-      <div class="flex flex-col gap-3">
-        <p class="font-[600] text-[1.0625rem] text-gray-500">
-          Lối tắt của bạn
-        </p>
-        <div class="flex flex-row items-center gap-3">
-          <img src="./images/tunna.png" class="w-9 h-9 rounded-full" />
-          <span class="text-[15px] font-semibold">Lập trình cùng Tunna Duong</span>
-        </div>
-        <div class="flex flex-row items-center gap-3">
-          <img src="./images/fatties.jpg" class="w-9 h-9 rounded-full" />
-          <span class="text-[15px] font-semibold">Fatties Software</span>
-        </div>
-      </div>
-      <footer class="mt-5 leading-4">
-        <span class="font-[600] text-[.8125rem] text-[#65686C]">Quyền riêng tư</span>
-        <span> · </span>
-        <span class="font-[600] text-[.8125rem] text-[#65686C]">Điều khoản</span>
-        <span> · </span>
-        <span class="font-[600] text-[.8125rem] text-[#65686C]">Quảng cáo</span>
-        <span> · </span>
-        <span class="font-[600] text-[.8125rem] text-[#65686C]">Lựa chọn quảng cáo</span>
-        <span> · </span>
-        <span class="font-[600] text-[.8125rem] text-[#65686C]">Cookie</span>
-        <span> · </span>
-        <span class="text-[.8125rem] text-[#65686C]">Xem thêm</span>
-        <span> · </span>
-        <span class="text-[.8125rem] text-[#65686C]">Fatties &copy; 2025</span>
-      </footer>
-    </div>
-    <!-- Main -->
-    <div class="flex-1">
-      <!-- Create post -->
-      <div class="max-w-[600px] mx-auto flex flex-col bg-white rounded-xl p-4 mt-5 shadow-sm">
-        <div class="flex flex-row gap-3">
-          <img src="./images/tunganh.jpg" class="w-10 h-10 rounded-full" />
-          <input type="text" class="flex-1 bg-gray-100 rounded-full p-2 pl-3 text-[17px]" placeholder="Tùng Anh ơi, bạn đang nghĩ gì thế?" />
+              "
+            ></i>
+            <span class="text-[15px] font-semibold">Trang</span>
+          </div>
         </div>
         <hr class="border-[#d0d3d7] my-4" />
-        <div class="flex flex-row gap-3">
-          <div class="flex flex-row flex-1 justify-center gap-2">
-            <img src="./images/live.png">
-            <span class="font-semibold text-[15px] text-gray-500">Video trực tiếp</span>
+        <div class="flex flex-col gap-3">
+          <p class="font-[600] text-[1.0625rem] text-gray-500">
+            Lối tắt của bạn
+          </p>
+          <div class="flex flex-row items-center gap-3">
+            <img src="./images/tunna.png" class="w-9 h-9 rounded-full" />
+            <span class="text-[15px] font-semibold"
+              >Lập trình cùng Tunna Duong</span
+            >
           </div>
-          <div class="flex flex-row flex-1 justify-center gap-2">
-            <img src="./images/image.png">
-            <span class="font-semibold text-[15px] text-gray-500">Ảnh/Video</span>
-          </div>
-          <div class="flex flex-row flex-1 justify-center gap-2">
-            <img src="./images/reels.png">
-            <span class="font-semibold text-[15px] text-gray-500">Thước phim</span>
+          <div class="flex flex-row items-center gap-3">
+            <img src="./images/fatties.jpg" class="w-9 h-9 rounded-full" />
+            <span class="text-[15px] font-semibold">Fatties Software</span>
           </div>
         </div>
+        <footer class="mt-5 leading-4">
+          <span class="font-[600] text-[.8125rem] text-[#65686C]"
+            >Quyền riêng tư</span
+          >
+          <span> · </span>
+          <span class="font-[600] text-[.8125rem] text-[#65686C]"
+            >Điều khoản</span
+          >
+          <span> · </span>
+          <span class="font-[600] text-[.8125rem] text-[#65686C]"
+            >Quảng cáo</span
+          >
+          <span> · </span>
+          <span class="font-[600] text-[.8125rem] text-[#65686C]"
+            >Lựa chọn quảng cáo</span
+          >
+          <span> · </span>
+          <span class="font-[600] text-[.8125rem] text-[#65686C]">Cookie</span>
+          <span> · </span>
+          <span class="text-[.8125rem] text-[#65686C]">Xem thêm</span>
+          <span> · </span>
+          <span class="text-[.8125rem] text-[#65686C]"
+            >Fatties &copy; 2025</span
+          >
+        </footer>
       </div>
-    </div>
-    <!-- Right sidebar -->
-    <div class="px-3 mt-5 max-w-[360px] w-full">
-      <div class="flex flex-col gap-3">
-        <p class="font-[600] text-[1.0625rem] text-gray-500">Được tài trợ</p>
-        <a href="https://www.youtube.com/watch?v=de2WuStHfjY">
+      <!-- Main -->
+      <div class="flex-1">
+        <!-- Create post -->
+        <div
+          class="max-w-[600px] mx-auto flex flex-col bg-white rounded-xl p-4 mt-5 shadow-sm"
+        >
           <div class="flex flex-row gap-3">
-            <img src="./images/fb-clone.jpg" class="w-[130px] h-[130px] object-cover rounded-lg" />
-            <div class="flex flex-col justify-center">
-              <span class="font-[500] text-[.9375rem]">Cách làm web giống Facebook 100%</span>
-              <div class="text-[#65686C] text-[.8125rem]">youtube.com</div>
-            </div>
+            <img src="./images/tunganh.jpg" class="w-10 h-10 rounded-full" />
+            <input
+              type="text"
+              class="flex-1 bg-gray-100 rounded-full p-2 pl-3 text-[17px]"
+              placeholder="Tùng Anh ơi, bạn đang nghĩ gì thế?"
+            />
           </div>
-        </a>
-        <a href="https://caodang.fpt.edu.vn">
-        <div class="flex flex-row gap-3">
-          <img src="./images/fpt.png" class="w-[130px] h-[130px] object-cover rounded-lg" />
-          <div class="flex flex-col justify-center">
-            <span class="font-[500] text-[.9375rem]">Học nhanh làm sớm</span>
-            <div class="text-[#65686C] text-[.8125rem]">
-              caodang.fpt.edu.vn
+          <hr class="border-[#d0d3d7] my-4" />
+          <div class="flex flex-row gap-3">
+            <div class="flex flex-row flex-1 justify-center gap-2">
+              <img src="./images/live.png" />
+              <span class="font-semibold text-[15px] text-gray-500"
+                >Video trực tiếp</span
+              >
+            </div>
+            <div class="flex flex-row flex-1 justify-center gap-2">
+              <img src="./images/image.png" />
+              <span class="font-semibold text-[15px] text-gray-500"
+                >Ảnh/Video</span
+              >
+            </div>
+            <div class="flex flex-row flex-1 justify-center gap-2">
+              <img src="./images/reels.png" />
+              <span class="font-semibold text-[15px] text-gray-500"
+                >Thước phim</span
+              >
             </div>
           </div>
         </div>
-        </a>
-      </div>
-      <hr class="border-[#d0d3d7] my-4" />
-      <div class="flex flex-col gap-3">
-        <p class="font-[600] text-[1.0625rem] text-gray-500">Sinh nhật</p>
-        <div class="flex flex-row gap-2 items-center">
-          <img src="./images/bd.png" class="w-[30px] h-[30px]" />
-          <div>
-            <span class="text-[15px]">Hôm nay là sinh nhật của</span>
-            <span class="font-semibold">Tùng Anh.</span>
+        <div class="max-w-[600px] mx-auto mt-4 flex gap-2">
+          <div
+            class="overflow-hidden rounded-xl shadow-sm w-[115px] h-[195px] flex flex-col"
+          >
+            <img
+              src="./images/tunganh.jpg"
+              class="object-cover w-full flex-1"
+            />
+            <div
+              class="bg-white flex flex-col items-center justify-center h-[50px] relative"
+            >
+              <div
+                class="bg-[#1877f2] rounded-full p-[6px] border-[4px] border-white absolute -top-[18px]"
+              >
+                <svg
+                  viewBox="0 0 20 20"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                  style="color: white"
+                >
+                  <g fill-rule="evenodd" transform="translate(-446 -350)">
+                    <g fill-rule="nonzero">
+                      <path
+                        d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z"
+                        transform="translate(354.5 159.5)"
+                      ></path>
+                      <path
+                        d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z"
+                        transform="translate(354.5 159.5)"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <span class="font-semibold text-[13px] text-black mt-3"
+                >Tạo tin</span
+              >
+            </div>
           </div>
-          </divcla>
+          <div
+            class="overflow-hidden rounded-xl shadow-sm w-[115px] h-[195px] flex flex-col relative"
+          >
+            <div>
+              <img
+                src="https://picsum.photos/50"
+                class="rounded-full border-[#1877f2] border-[4px] w-[38px] h-[38px] absolute top-3 left-2.5"
+              />
+            </div>
+            <img
+              src="https://picsum.photos/115/195"
+              class="object-cover w-full flex-1"
+            />
+            <div
+              class="absolute w-full h-14 bottom-0 px-2.5 flex items-end"
+              style="
+                background-image: linear-gradient(
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.4) 100%
+                );
+              "
+            >
+              <p
+                class="font-semibold text-[13px] text-white text-shadow-md leading-4 mb-2.5"
+              >
+                Nguyễn Thu Trang
+              </p>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden rounded-xl shadow-sm w-[115px] h-[195px] flex flex-col relative"
+          >
+            <div>
+              <img
+                src="https://picsum.photos/id/1/50"
+                class="rounded-full border-[#1877f2] border-[4px] w-[38px] h-[38px] absolute top-3 left-2.5"
+              />
+            </div>
+            <img
+              src="https://picsum.photos/id/1/115/195"
+              class="object-cover w-full flex-1"
+            />
+            <div
+              class="absolute w-full h-14 bottom-0 px-2.5 flex items-end"
+              style="
+                background-image: linear-gradient(
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.4) 100%
+                );
+              "
+            >
+              <p
+                class="font-semibold text-[13px] text-white text-shadow-md leading-4 mb-2.5"
+              >
+                Đỗ Hồng Quân
+              </p>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden rounded-xl shadow-sm w-[115px] h-[195px] flex flex-col relative"
+          >
+            <div>
+              <img
+                src="https://picsum.photos/id/2/50"
+                class="rounded-full border-[#1877f2] border-[4px] w-[38px] h-[38px] absolute top-3 left-2.5"
+              />
+            </div>
+            <img
+              src="https://picsum.photos/id/2/115/195"
+              class="object-cover w-full flex-1"
+            />
+            <div
+              class="absolute w-full h-14 bottom-0 px-2.5 flex items-end"
+              style="
+                background-image: linear-gradient(
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.4) 100%
+                );
+              "
+            >
+              <p
+                class="font-semibold text-[13px] text-white text-shadow-md leading-4 mb-2.5"
+              >
+                Nguyễn Việt Thắng
+              </p>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden rounded-xl shadow-sm w-[115px] h-[195px] flex flex-col relative"
+          >
+            <div>
+              <img
+                src="https://picsum.photos/id/3/50"
+                class="rounded-full border-[#1877f2] border-[4px] w-[38px] h-[38px] absolute top-3 left-2.5"
+              />
+            </div>
+            <img
+              src="https://picsum.photos/id/3/115/195"
+              class="object-cover w-full flex-1"
+            />
+            <div
+              class="absolute w-full h-14 bottom-0 px-2.5 flex items-end"
+              style="
+                background-image: linear-gradient(
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.4) 100%
+                );
+              "
+            >
+              <p
+                class="font-semibold text-[13px] text-white text-shadow-md leading-4 mb-2.5"
+              >
+                Lê Hoàng Tùng Lâm
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-  </main>
-</body>
-
+      <!-- Right sidebar -->
+      <div class="px-3 mt-5 max-w-[360px] w-full">
+        <div class="flex flex-col gap-3">
+          <p class="font-[600] text-[1.0625rem] text-gray-500">Được tài trợ</p>
+          <a href="https://www.youtube.com/watch?v=de2WuStHfjY">
+            <div class="flex flex-row gap-3">
+              <img
+                src="./images/fb-clone.jpg"
+                class="w-[130px] h-[130px] object-cover rounded-lg"
+              />
+              <div class="flex flex-col justify-center">
+                <span class="font-[500] text-[.9375rem]"
+                  >Cách làm web giống Facebook 100%</span
+                >
+                <div class="text-[#65686C] text-[.8125rem]">youtube.com</div>
+              </div>
+            </div>
+          </a>
+          <a href="https://caodang.fpt.edu.vn">
+            <div class="flex flex-row gap-3">
+              <img
+                src="./images/fpt.png"
+                class="w-[130px] h-[130px] object-cover rounded-lg"
+              />
+              <div class="flex flex-col justify-center">
+                <span class="font-[500] text-[.9375rem]"
+                  >Học nhanh làm sớm</span
+                >
+                <div class="text-[#65686C] text-[.8125rem]">
+                  caodang.fpt.edu.vn
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr class="border-[#d0d3d7] my-4" />
+        <div class="flex flex-col gap-3">
+          <p class="font-[600] text-[1.0625rem] text-gray-500">Sinh nhật</p>
+          <div class="flex flex-row gap-2 items-center">
+            <img src="./images/bd.png" class="w-[30px] h-[30px]" />
+            <div>
+              <span class="text-[15px]">Hôm nay là sinh nhật của</span>
+              <span class="font-semibold">Tùng Anh.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
